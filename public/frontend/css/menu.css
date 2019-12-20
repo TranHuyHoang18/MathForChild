@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.footer a {
+    text-decoration: none;
+    color: ghostwhite;
+    margin-right: 45px;
+    font-size: 20px;
+}
+.footer a:hover{
+	color:green;
+	transition: 0.5s;
+}
+.footer h4:hover{
+	color:green;
+	transition: 0.5s;
+}
+.footer h3 {
+    font-size: 40px;
+    color: #E2E2E1;
+}
+
+.footer h4 {
+    font-size: x-large;
+    color: #e2e2e2;
+    margin-bottom: 38px;
+}
+
+.footer p {
+    font-size: 17px;
+}
+
+.footer i {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.footer i:hover{
+	color: green;		
+}
+.thongbao {
+    margin-top: 25px;
+}
+.tingiaoduc{
+	margin-top: 25px;
+}
+
+.khoitin a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 8px 0;
+    color:#212529;
+    display: block;
+}
+.khoitin a:hover{
+	color: green;
+}
+
+.khoitinto .khoitin img{
+	width: 100%;
+	height: 200px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: #888888;
+    padding: 26px 5px;
+}
+li.nav-item {padding: 10px 18px;}
+
+a.nav-link {
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+a.nav-link:hover{
+	color: green;
+	transition: 0.8s;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.img-slide {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+    font-size: 50px!important;
+    color: #e2e2e2;
+}
+.content-caption h3{
+	
+	font-family: 'Roboto', sans-serif;
+}
+/*.mycarousel .list-carousel-item  img {
+  height:100px;
+  width:100px;
+}*/
+#menuphuhuynh{
+	display: none;
+}
+#menugiaovien{
+	display: none;
+}
+.khoitinto {
+    margin-top: 12px;
+}
+.Mymenu{
+	background-color: #dededed6;
+}
