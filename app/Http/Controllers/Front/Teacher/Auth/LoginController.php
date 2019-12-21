@@ -33,7 +33,7 @@ class LoginController extends Controller
     {
 
         Auth::guard('teacher')->logout();
-        return redirect()->route('teacher.auth.login');
+        return redirect()->route('home');
     }
 
 }
