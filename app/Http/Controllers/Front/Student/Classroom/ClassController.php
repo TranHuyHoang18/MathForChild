@@ -596,10 +596,15 @@ class ClassController extends Controller
         $id_score= array();
         for ($i=1;$i<=$id_student->{'0'};$i++)
         {
-            $sum_score[$i]=DB::table('homeworks')
+            $sum_score[$i]=0;
+                $tam =DB::table('homeworks')
                 ->where('id_class','=',$rank->id_class)
                 ->where('id_student','=',$id_student->{$i})
-                ->sum('score');
+                ->get();
+            for($j=0;$j<count($tam);$j++)
+            {
+                $sum_score[$i]+=$tam[$j]->score;
+            }
             $id_score[$i]=StudentModel::find($id_student->{$i});
         }
         $n = $id_student->{'0'};
