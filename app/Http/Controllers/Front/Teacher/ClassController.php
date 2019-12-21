@@ -35,8 +35,8 @@ class ClassController extends Controller
         $item1 = new RankModel();
         $item1->id_class = $item->id;
         $id_student = array('0'=>0);
-        $item1->id_student=json_encode($id_student);
-        $item1->rank=json_encode($id_student);
+        $item1->id_student='{"0":0}';
+        $item1->rank='{"0":0}';
         $item1->thongke='';
         $item1->save();
         return redirect()->route('teacher.class.home');
