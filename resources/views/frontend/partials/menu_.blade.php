@@ -6,10 +6,7 @@
             </a>
             <ul class="navbar-nav ml-auto list_item">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Trang chủ</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{url('teacher/class/document')}}" class="nav-link">Tài liệu</a>
+                    <a href="{{url('/')}}" class="nav-link">Trang chủ</a>
                 </li>
                 <li class="nav-item">
                     <a href="{{url('/account/register/')}}" class="nav-link">Đăng Kí</a>

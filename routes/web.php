@@ -43,7 +43,7 @@ Route::prefix('student')->group(function() {
     Route::post('/joinclass','Front\Student\Classroom\ClassController@xinjoinclass')->name('student.class.xinjoinclass');
     Route::get('/class/','Front\Student\Classroom\ClassController@joinClass')->name('student.class');
     Route::get('/class/detail/{id_class}','Front\Student\Classroom\ClassController@index')->name('student.class.detail');
-    Route::get('/class/document','Front\Student\Classroom\DocumentController@document')->name('student.class.document');
+    Route::get('/class/document','Front\Student\Classroom\ClassController@document')->name('student.class.document');
     Route::get('/class/btvn/{id_class}/{stt_tuan}/{stt}/{id_dang}','Front\Student\Classroom\ClassController@btvn')->name('student.class.btvn');
     Route::post('/class/check_btvn/{id_btvn}','Front\Student\Classroom\ClassController@checkBtvn')->name('student.class.checkBtvn');
     Route::get('/class/luyen_tap/{id_class}/{stt_tuan}/{stt}/{id_dang}','Front\Student\Classroom\ClassController@luyenTap')->name('student.class.luyen_tap');

@@ -35,8 +35,6 @@
                         <td>Ngày tải lên</td>
                         <td>Hành động</td>
                     </tr>
-
-
                     @foreach($documents as $document)
                         <tr>
                             <td>{{$document->id}}</td>

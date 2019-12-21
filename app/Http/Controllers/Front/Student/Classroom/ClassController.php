@@ -433,8 +433,6 @@ class ClassController extends Controller
             if ($input['answer_'.$i]== $answer->{$i})
             {
                 $arr_ans['result'] = '1';
-
-
             }else  $arr_ans['result'] = '0';
             $arr_ans['true'] = $answer->{$i};
             if($arr_ans['result'] == 1)
@@ -624,5 +622,14 @@ class ClassController extends Controller
         $data['id_score']=$id_score;
         $data['num_student']=$n;
         return $data;
+    }
+    public function document()
+    {
+        $student = StudentModel::find(Auth::user()->id);
+        $data['class']=ClassModel::find($student->id_class);
+        $data['documents'] = DB::table('documents')
+            ->where('id_class','=',$student->id_class)
+            ->paginate(5);
+        return view('frontend.student.class.document',$data);
     }
 }

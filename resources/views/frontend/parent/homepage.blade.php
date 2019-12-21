@@ -120,19 +120,19 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="khoitin">
-                        <img src="https://vio.edu.vn/tin-tuc/wp-content/uploads/2019/09/VioEdu_9.jpg" alt="">
+                        <img src="https://vio.edu.vn/tin-tuc/wp-content/uploads/2019/09/VioEdu_9.jpg" alt="" style="object-fit: cover;">
                         <a href="">VioEdu công bố chính sách ưu đãi cho học sinh tiểu học đầu năm học mới</a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="khoitin">
-                        <img src="https://vio.edu.vn/tin-tuc/wp-content/uploads/2019/09/70075467_378658702804179_6736031079876001792_n.jpg" alt="">
+                        <img src="https://vio.edu.vn/tin-tuc/wp-content/uploads/2019/09/70075467_378658702804179_6736031079876001792_n.jpg" alt="" style="object-fit: cover;">
                         <a href="">Thay đổi hình thức giảng dạy trong nhà trường</a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="khoitin">
-                        <img src="https://vio.edu.vn/tin-tuc/wp-content/uploads/2019/09/VioEdu_9.jpg" alt="">
+                        <img src="https://vio.edu.vn/tin-tuc/wp-content/uploads/2019/09/VioEdu_9.jpg" alt="" style="object-fit: cover;">
                         <a href="">FPT vào cuộc trong việc dùng AI dạy học</a>
                     </div>
                 </div>
